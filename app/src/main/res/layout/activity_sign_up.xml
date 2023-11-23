@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppinsblack"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#2B4DA3"
+        android:textSize="48dp" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtEmail"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="e-mail"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="password"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/txtRePass"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="re - type password"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:textColor="#7B7B7B"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textSize="24dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppinsblack"/>
+
+</LinearLayout>

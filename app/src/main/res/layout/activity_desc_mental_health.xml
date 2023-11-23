@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescMentalHealth">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="What is mental health?"
+        android:fontFamily="@font/interblack"
+        android:textColor="#2B4DA3"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interblack"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:justificationMode="inter_word"
+        android:text="Kesehatan mental merupakan kondisi dimana individu memiliki kesejahteraan yang tampak dari dirinya yang mampu menyadari potensinya sendiri, memiliki kemampuan untuk mengatasi tekanan hidup normal pada berbagai situasi dalam kehidupan, mampu bekerja secara produktif dan menghasilkan, serta mampu memberikan kontribusi kepada komunitasnya."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interblack"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:justificationMode="inter_word"
+        android:text="Ciri-ciri Kesehatan Mental Yang Baik\n\nAnak remaja dengan kesehatan mental yang baik seringkali memiliki ciri-ciri sebagai berikut :\n1.Merasa lebih bahagia dan lebih positif tentang diri mereka sendiri dan menikmati hidup\n2.Bangkit kembali dari kekesalan dan kekecewaan\n3.Memiliki hubungan yang lebih sehat dengan keluarga dan teman\n4.Melakukan aktivitas fisik dan makan makanan yang sehat\n5.Terlibat dalam kegiatan\n6.Memiliki rasa pencapaian\n7.Bisa bersantai dan tidur nyenyak\n8.Merasa nyaman di komunitas mereka."/>
+
+
+</RelativeLayout>

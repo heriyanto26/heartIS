@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home_admin">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Admin"
+        android:textSize="32dp"
+        android:fontFamily="@font/poppinsblack"
+        android:textColor="#6487DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnCreate"
+        android:text="Create Psikolog Baru"
+        android:backgroundTint="#2B4DA3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/interregular"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_marginTop="20dp"
+        android:text="Permintaan Konseling"
+        android:backgroundTint="#2B4DA3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/interregular"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnMedicalNotes"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Pengisian Catatan Medis"
+        android:backgroundTint="#2B4DA3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/interregular"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Catatan Medis"
+        android:backgroundTint="#2B4DA3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/interregular"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnDashboard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2B4DA3"
+        android:fontFamily="@font/interregular"
+        android:gravity="center"
+        android:text="View Dashboard"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Log Out"
+        android:backgroundTint="#2B4DA3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/interregular"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

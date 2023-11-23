@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PentingnyaKesehatanMental">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Apakah Kesehatan Mental itu Penting?"
+        android:fontFamily="@font/interblack"
+        android:textColor="#2B4DA3"
+        android:layout_marginTop="4dp"
+        android:paddingTop="10dp"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/interblack"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:justificationMode="inter_word"
+        android:text="Masa remaja dapat menjadi fase yang paling berisiko untuk mengalami masalah mental. Sebab, remaja harus mengalami berbagai macam perubahan dan tantangan dalam waktu yang relatif singkat. Hal ini juga terjadi saat otak remaja masih terus berkembang.\n\nMaka dari itu, anak-anak membutuhkan kesehatan mental yang baik agar dapat bertumbuh dan berkembang dengan optimal. Selain itu, mereka juga dapat membangun hubungan yang kuat dengan orang di sekitar mereka, beradaptasi dengan perubahan, serta menghadapi tantangan hidup.\n\nBeberapa alasan lainnya jika kesehatan mental remaja perlu dijaga, antara lain:\n\n-Mampu bangkit kembali dari perasaan kecewa dan kesal.\n-Merasa lebih bahagia dan positif pada dirinya sendiri dan lebih menikmati hidup.\n-Memiliki rasa pencapaian.\n-Banyak ikut serta dalam kegiatan sosial.\n-Mampu menjadi bagian dari komunitas.\n\nSelain itu, kesehatan mental pada anak yang terjaga dengan baik juga dapat mendukung kesehatan fisiknya. Hal ini membuatnya menjadi lebih aktif dan sehat, sehingga memiliki kepercayaan diri yang tinggi dan beristirahat yang cukup.\n\nOrangtua juga perlu memahami jika anak dengan kesehatan mental yang baik dapat mendukung keberhasilannya saat mendapatkan pendidikan atau bahkan ketika berkarier kelak. "/>
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.welcome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Welcome"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainDashboard"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNamePickerNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNamePickerHistory"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCreatePsikolog"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMedicalNotesPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHistoryPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSchedulePage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminScheduleDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHistoryDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMedicalNotesDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReschedule"
+            android:exported="false" />
+        <activity
+            android:name=".home_admin"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Schedule"
+            android:exported="true" />
+        <activity
+            android:name=".historyMentalTest"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".HasilMentalTest"
+            android:exported="false" />
+        <activity
+            android:name=".MentalTest"
+            android:exported="true" />
+        <activity
+            android:name=".PentingnyaKesehatanMental"
+            android:exported="false" />
+        <activity
+            android:name=".DescMentalHealth"
+            android:exported="false" />
+        <activity
+            android:name=".Psikolog"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChat"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Ready"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

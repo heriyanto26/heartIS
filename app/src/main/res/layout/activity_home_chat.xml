@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeChat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="Mental Test"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="#6487DF"
+            android:textSize="36dp" />
+
+        <TextView
+            android:id="@+id/idPertanyaan"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="#2B4DA3"
+            android:text="Pertanyaan" />
+
+        <ImageView
+            android:src="@drawable/bgmentaltest"
+            android:layout_marginTop="20dp"
+            android:layout_width="410dp"
+            android:layout_height="370dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPilihan1"
+        android:text="Pilihan 1"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#6487DF"
+        android:background="@drawable/rounded_corner"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnPilihan2"
+        android:text="Pilihan 2"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="#6487DF"
+        android:background="@drawable/rounded_corner"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnPilihan3"
+        android:text="Pilihan 3"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#6487DF"
+        android:background="@drawable/rounded_corner"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnPilihan4"
+        android:text="Pilihan 4"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#6487DF"
+        android:background="@drawable/rounded_corner"
+        app:backgroundTint="@null"/>
+
+</RelativeLayout>

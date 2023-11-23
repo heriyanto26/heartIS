@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ready">
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ready"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsblack"
+        android:layout_marginLeft="55dp"
+        android:text="You Are Ready !"
+        android:textColor="#2B4DA3"
+        android:textSize="48dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="96dp"
+        android:layout_height="41dp"
+        app:backgroundTint="@null"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="300dp"
+        android:backgroundTint="#2B4DA3"
+        android:text="Next>" />
+
+</LinearLayout>

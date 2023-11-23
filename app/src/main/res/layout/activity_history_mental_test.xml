@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".historyMentalTest">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="History"
+        android:textSize="32dp"
+        android:fontFamily="@font/poppinsblack"
+        android:textColor="#6487DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:stretchColumns="1,2,3"
+        android:background="@android:color/white">
+
+        <TableRow>
+            <TextView
+                android:text="Date"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="#6487DF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_column="1" />
+            <TextView
+                android:text="Status"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="#6487DF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_column="2"/>
+        </TableRow>
+        <ListView
+            android:id="@+id/isiTabelHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableLayout>
+</RelativeLayout>

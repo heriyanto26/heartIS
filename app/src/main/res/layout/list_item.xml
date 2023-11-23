@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Name"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_marginLeft="71dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtNamaMahasiswa"
+                android:text="Stanley Jeven"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="psychologyst"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtNamaPsikolog"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:text="Psikolog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Media"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_marginLeft="69dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TxtMedia"
+                android:text="Media"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Date"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_marginLeft="81dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TxtDate"
+                android:text="Date"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

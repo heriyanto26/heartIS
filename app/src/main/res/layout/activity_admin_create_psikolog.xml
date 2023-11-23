@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminCreatePsikolog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppinsblack"
+        android:gravity="center"
+        android:text="Create"
+        android:textColor="#2B4DA3"
+        android:textSize="48dp" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/edtNamaPsikolog"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="nama lengkap"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="Phone Number"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/edtgender"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="gender"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/edtPengalaman"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="Pengalaman"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <EditText
+        android:id="@+id/edtbidang"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:layout_gravity="center"
+        android:hint="Bidang"
+        android:paddingLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#7B7B7B"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Create"
+        android:textSize="24dp"
+        android:backgroundTint="#2B4DA3"
+        android:fontFamily="@font/poppinsblack"/>
+
+</LinearLayout>

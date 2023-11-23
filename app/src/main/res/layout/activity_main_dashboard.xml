@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainDashboard">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Dashboard"
+        android:textSize="32dp"
+        android:fontFamily="@font/poppinsblack"
+        android:textColor="#6487DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Silahkan pilih Bulan dan Tahun yang diinginkan"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsblack"
+        android:textColor="#6487DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Bulan"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/edtBulan"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="150dp"
+                android:layout_height="40dp"
+                 />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Tahun"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text=":"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsblack"
+                android:textColor="@color/black"
+                android:layout_marginLeft="134dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtTahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/interregular"
+                android:inputType="number"
+                android:hint="YYYY"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textSize="20dp"
+        android:backgroundTint="#2B4DA3"
+        android:fontFamily="@font/poppinsblack"/>
+
+
+</LinearLayout>
